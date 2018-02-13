@@ -1,17 +1,13 @@
-
-                            <div class="art-post-inner art-article">
-                                            <h2 class="art-postheader">&nbsp;</h2>
-							<div class="cleared"></div>
-                            </div>
-                            
-                            		<div class="cleared"></div>
-                                </div>
-                            </div>
-                            <div class="art-post">
-                                <div class="art-post-body">
-                                  <div class="cleared"></div>
-                              </div>
-                            </div>
+<div class="art-post-inner art-article">
+     <h2 class="art-postheader">&nbsp;</h2>
+	<div class="cleared"></div>
+</div>
+<div class="cleared"></div>
+<div class="art-post">
+	<div class="art-post-body">
+        	<div class="cleared"></div>
+        </div>
+ </div>
                         </div>
                     </div>
                 </div>
