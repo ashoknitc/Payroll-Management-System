@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 	<script type="text/javascript" src="HNewEntryFrm.js"></script>
-    <script type="text/javascript" src="script.js">	</script>
+    	<script type="text/javascript" src="script.js"></script>
 	<script language="javascript">
 	function saving()
 	{
@@ -98,7 +98,7 @@
 									
                                                         <ul class="art-vmenu">
                                                           <%@ include file="NavigationModule.jsp"%>
-					   									</ul>
+					   		</ul>
                                             <!-- /block-content -->
                                             
                                             		<div class="cleared"></div>
@@ -128,10 +128,9 @@
                                                 <div class="art-blockcontent-body">
                                             <!-- block-content -->
                                                         <div>
-														<%@ include file="ContactInfo.jsp"%>
+								<%@ include file="ContactInfo.jsp"%>
                                                          </div>
-                                            <!-- /block-content -->
-                                            
+                                            <!-- /block-content -->                                            
                                             		<div class="cleared"></div>
                                                 </div>
                                             </div>
@@ -142,9 +141,7 @@
                         <div class="art-layout-cell art-content">
                         <div class="art-post">
                                 <div class="art-post-body">
-								
-									    <form method="POST" action="" name="HEmployeeMaster" onsubmit="return validate();">
-        
+<form method="POST" action="" name="HEmployeeMaster" onsubmit="return validate();">
 <head>
 <title>Add Employee Personal</title>
 </head>
@@ -164,7 +161,6 @@
         <td><input type="text" id="empname" name="empname" required="required"></td>
 <td></td>
 </tr>
-
 <tr> 
 <td><label><font color="#CC99FF"><strong>yyyy-mm-dd</strong></font></label></td>
         <td><font color="#800000"><b>Date of Joining</b></font></td>
@@ -174,7 +170,7 @@
         <td><input type="text" name="dob"></td>
 <td><label><font color="#CC99FF"><strong>yyyy-mm-dd</strong></font></label></td>
 </tr>
-
+	    
 <tr>
 <td></td>
 <td><font color="#800000" size=""><b>Address</b></font></td>
@@ -186,7 +182,7 @@
             </select></td>
 <td></td>
 </tr>
-
+	    
 <tr>
 <td></td>
         <td><font color="#800000" size=""><b>Desn Code</b></font></td>
@@ -240,40 +236,36 @@
 </table>
 </center>
 </center>
-        </form>
-								
-							
-                            <div class="art-post-inner art-article">
-                                            <h2 class="art-postheader">&nbsp;</h2>
-							<div class="cleared"></div>
-                            </div>
-                            
-                            		<div class="cleared"></div>
-                                </div>
-                            </div>
-                            <div class="art-post">
-                                <div class="art-post-body">
-                                  <div class="cleared"></div>
-                              </div>
-                            </div>
-                        </div>
+ </form>
+	<div class="art-post-inner art-article">
+             <h2 class="art-postheader">&nbsp;</h2>
+		<div class="cleared"></div>
+        </div>
+                <div class="cleared"></div>
+        </div>
+        </div>
+                <div class="art-post">
+                    <div class="art-post-body">
+                           <div class="cleared"></div>
                     </div>
                 </div>
-                <div class="cleared"></div><div class="art-footer">
-                    <div class="art-footer-inner">
-                        <a href="#" class="art-rss-tag-icon" title="RSS"></a>
+        </div>
+        </div>
+        </div>
+         <div class="cleared"></div><div class="art-footer">
+              <div class="art-footer-inner">
+                   <a href="#" class="art-rss-tag-icon" title="RSS"></a>
                         <div class="art-footer-text">
                             <p> <a href="termsOfUse.jsp">Terms of Use</a></p>
                         </div>
-                    </div>
+             </div>
                     <div class="art-footer-background"></div>
-                </div>
-        		<div class="cleared"></div>
+             </div>
+        	    <div class="cleared"></div>
             </div>
         </div>
         <div class="cleared"></div>
         <p class="art-page-footer"> 
-    </div>
-    
+    </div>    
 </body>
 </html>
