@@ -44,17 +44,12 @@
 %>
 
 <table bgcolor="white">
-		<tr>
-			<td></td>
-        <td><h2> record Approved sucessfully<br></h2></td>
+<tr>
+	<td></td>td><h2> record Approved sucessfully<br></h2></td>
         <td><h2><a href="ApproveTransfer.jsp">click here to back</a></h2></td>
-		<td></td>
-		</tr>
-</table>
-		
-		
-
-	
+	<td></td>
+</tr>
+</table>	
 <% 
 }
 }catch(Exception ex){out.println(ex.toString());}
