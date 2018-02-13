@@ -17,8 +17,7 @@
 	</script>
 	</head>
 <%@ include file="Header.jsp" %>
-   <form method="POST" action="ApproveTransferRequest.jsp" name="UpdateUser" onsubmit="return validate();">
-        
+   <form method="POST" action="ApproveTransferRequest.jsp" name="UpdateUser" onsubmit="return validate();">        
 <head>
 <title>Employee Personal Master</title>
 </head>
