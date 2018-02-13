@@ -18,8 +18,9 @@
                     <div class="art-header-png"></div>
                     <div class="art-header-jpeg"></div>
                     <div class="art-logo">
-					<center>
-                        <%@ include file="Tage.jsp"%></center>
+			<center>
+                        	<%@ include file="Tage.jsp"%>
+			 </center>
                     </div>
                 </div>
                 <div class="art-nav">
@@ -27,7 +28,7 @@
                 	<div class="r"></div>
                 	<div class="art-nav-center">
                 	<ul class="art-menu">
-                	<%@ include file="AdminHeaderMenu.jsp"%>	
+                		<%@ include file="AdminHeaderMenu.jsp"%>	
                 	</ul>
                 	</div>
                 </div>
@@ -52,13 +53,11 @@
                                                 <div class="art-vmenublockcontent-cr"></div>
                                                 <div class="art-vmenublockcontent-cc"></div>
                                                 <div class="art-vmenublockcontent-body">
-                                            <!-- block-content -->
-									
+                                            <!-- block-content -->									
                                                         <ul class="art-vmenu">
                                                           <%@ include file="NavigationModule.jsp"%>
-					   									</ul>
-                                            <!-- /block-content -->
-                                            
+					   		</ul>
+                                            <!-- /block-content -->                                            
                                             		<div class="cleared"></div>
                                                 </div>
                                             </div>
@@ -68,13 +67,13 @@
                             <div class="art-block"></div>
                             <div class="art-block">
                                 <div class="art-block-body">
-                                            <div class="art-blockheader">
-                                                <div class="l"></div>
+                                	<div class="art-blockheader">
+                                        	<div class="l"></div>
                                                 <div class="r"></div>
-                                                 <div class="t">Contact Info</div>
-                                            </div>
-                                            <div class="art-blockcontent">
-                                                <div class="art-blockcontent-tl"></div>
+                                                <div class="t">Contact Info</div>
+                                         </div>
+                                         <div class="art-blockcontent">
+                                         	<div class="art-blockcontent-tl"></div>
                                                 <div class="art-blockcontent-tr"></div>
                                                 <div class="art-blockcontent-bl"></div>
                                                 <div class="art-blockcontent-br"></div>
@@ -85,14 +84,13 @@
                                                 <div class="art-blockcontent-cc"></div>
                                                 <div class="art-blockcontent-body">
                                             <!-- block-content -->
-                                                        <div>
-														<%@ include file="ContactInfo.jsp"%>
-                                                         </div>
-                                            <!-- /block-content -->
-                                            
-                                            		<div class="cleared"></div>
+                                                <div>
+							<%@ include file="ContactInfo.jsp"%>
                                                 </div>
-                                            </div>
+                                            <!-- /block-content -->                                            
+                                            		<div class="cleared"></div>
+                                     </div>
+                               </div>
                             		<div class="cleared"></div>
                               </div>
                           </div>
