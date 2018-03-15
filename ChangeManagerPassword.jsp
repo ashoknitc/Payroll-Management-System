@@ -4,10 +4,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
     <title>Employee Master Form</title>
-
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 	<script type="text/javascript" src="HNewEntryFrm.js"></script>
-    <script type="text/javascript" src="script.js">	</script>
+    	<script type="text/javascript" src="script.js">	</script>
 	<script language="javascript">
 	function saving()
 	{
@@ -16,12 +15,9 @@
 	}
 	</script>
 	</head>
-
 <%@ include file="Header.jsp" %>	
-	<form method="POST" action="ChangeManagerPwd.jsp" name="ChangeManagerPwd" onsubmit="return validate();">      
-<head>
-<title>Employee Personal Master</title>
-</head>
+<form method="POST" action="ChangeManagerPwd.jsp" name="ChangeManagerPwd" onsubmit="return validate();">      
+<head><title>Employee Personal Master</title></head>
 <body bgcolor="#FFFFCC">
 <font color="#FFFFFF"></font> 
 <center>
@@ -29,34 +25,27 @@
     <hr>
     <h2> <font color="#800000"></font>CHANGE PASSWORD</h2> 
     <table bgcolor="white">
-<tr>
-<td></td>
-        <td><font color="#800000"><b><b>OLD PASSWORD</b></b></font><font color="#800000" size=""><b></b></font><font color="#800000" size=""><b></b></font><font color="#800000" size="">&nbsp;&nbsp;</font></td>
+<tr><td></td>
+	<td><font color="#800000"><b><b>OLD PASSWORD</b></b></font><font color="#800000" size=""><b></b></font><font color="#800000" size=""><b></b></font><font color="#800000" size="">&nbsp;&nbsp;</font></td>
         <td><input type="password" id="oldpwd" name="oldpwd" required="required"></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
+<td></td></tr>
+<tr><td></td>
         <td><font color="#800000"><b>NEW PASSWORD</b></font><font color="#800000" size=""><b></b></font><font color="#800000" size=""><b></b></font><font color="#800000" size="">&nbsp;</font></td>
         <td><input type="password" id="newpwd" name="newpwd" required="required"></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
+<td></td></tr>
+<tr><td></td>
         <td><font color="#800000"><b>CONFORM PASSWORD</b></font><font color="#800000" size=""><b></b></font><font color="#800000" size=""><b></b></font><font color="#800000" size="">&nbsp;</font></td>
         <td><input type="password" id="cnewpwd" name="cnewpwd" required="required"></td>
-<td></td>
-</tr>
+<td></td></tr>
 </table>
 </br>
 <center>
 <table>
- <tr>
-    <td><input type="submit" name="save" value="Change Password" onClick="saving()"></td>
+ <tr><td><input type="submit" name="save" value="Change Password" onClick="saving()"></td>
 	<td><input type="reset" name="reset" value="Reset"></td>
  </tr>
 </table>
 </center>
 </center>
-        </form>
+</form>
 <%@ include file="Footer.jsp" %>
