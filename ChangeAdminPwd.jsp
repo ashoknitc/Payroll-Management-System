@@ -12,8 +12,7 @@
 <%@ include file="AHeader.jsp"%>				
 <%@ page import="java.sql.*" %>
 <%@ page import="connect.*" %>
-<%
-   
+<%  
 	String oldpwd=request.getParameter("oldpwd");
 	String newpwd=request.getParameter("newpwd");
 	String cnewpwd=request.getParameter("cnewpwd");
