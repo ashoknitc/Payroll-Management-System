@@ -34,7 +34,6 @@
 		{
 		 pass=rs.getString("empid");
 		 pwd=rs.getString("password");
-		 //out.println(pwd);
 		}
 		if(newpwd.equals(cnewpwd))
 		{	
