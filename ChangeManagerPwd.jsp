@@ -4,16 +4,14 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
     <title>Saving Employee Record</title>
-
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 	<script type="text/javascript" src="HNewEntryFrm.js"></script>
-    <script type="text/javascript" src="script.js">	</script>
+    	<script type="text/javascript" src="script.js">	</script>
 </head>
 <%@ include file="Header.jsp"%>								
 <%@ page import="java.sql.*" %>
 <%@ page import="connect.*" %>
-<%
-   
+<% 
 	String oldpwd=request.getParameter("oldpwd");
 	String newpwd=request.getParameter("newpwd");
 	String cnewpwd=request.getParameter("cnewpwd");
